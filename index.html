@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <style>
+        .red-color {
+color:red;
+}
+.top{
+    background-color: white;
+    width:1000px;
+    height:650px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    
+    margin-top:-325px;
+    margin-left:-500px;
+    border:1px solid blue;
+    
+}
+.first{
+    position:absolute;
+    top:30%;
+    left:20%;
+    right:20%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+
+.one{
+    font-family:courier;
+    font-size:35px;
+    font-weight: lighter;
+   color:rgb(107, 102, 102);
+}
+.two{
+    font-family:courier;
+    font-size:25px;
+   font-weight: lighter;
+   color:rgb(107, 102, 102);
+   
+}
+.second{
+    position: absolute;
+    top:45%;
+    left:20%;
+    right:20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.test{
+    width:170px;
+    height:240px;
+    border:2px solid rgb(241, 119, 119);
+    border-radius: 10px;
+    box-shadow:4px 4px 12px 1px grey;
+    background-color: white;
+}
+.a{
+    color:rgb(241, 119, 119);
+    border-bottom:1px solid rgb(145, 138, 138);
+    font-size:23px;
+    position:absolute;
+   
+    font-family: serif;
+
+  
+    
+}
+.a1{
+    left:5.35%;
+    padding:12px;
+}
+.a2{
+    left:40%;
+    padding:12px;
+}
+.a3{
+    left:75%;
+    padding:12px;
+}
+.b{
+    color:red;
+    font-weight:bold;
+    font-size:19px;
+    position: absolute;
+    text-decoration: line-through;
+}
+.b1{
+    top:30%;
+    left:5%;
+}
+.b2{
+    top:30%;
+    left:41%;
+}
+.b3{
+    top:30%;
+    left:76%;
+}
+.check1{
+    position: absolute;
+    top:45%;
+}
+.check2{
+    position: absolute;
+    top:45%;
+}
+.check3{
+    position: absolute;
+    top:45%;
+}
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="first">
+            <div class="one common"><b style="color:black; font-family:arial;">Tasks</b><normal style="font-family:arial;"> Lists</normal></div>
+            <div class="two common" style="font-family:open sans;"><a href="b.html"><i class="fa fa-plus-circle red-color " ></i></a>Add List</div>
+        </div>
+        <div class="second">
+            <div class="test test1">
+                <div class="a a1"><a href="a.html" style="color:rgb(241, 119, 119); text-decoration: none;">Trip to Paris</a></div>
+                <div class="b b1">Completed Task</div>
+                <div class="check1">
+                <input type="checkbox" id="check" >
+                <label for=check>Pending Task</label>
+            </div>
+            </div>
+            
+            <div class="test test2">
+                <div class="a a2">My Todo List</div>
+                <div class="b b2">Completed Task</div>
+                <div class="check2">
+                <input type="checkbox" id="checkk" >
+                <label for=checkk>Pending Task</label>
+            </div>
+            </div>
+            <div class="test test3">
+                <div class="a a3">My Todo List</div>
+                <div class="b b3">Completed Task</div>
+                <div class="check3">
+                <input type="checkbox" id="checkkk" >
+                <label for=checkkk>Pending Task</label>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
